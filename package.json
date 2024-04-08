@@ -1,0 +1,44 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "index.js",
+  "bin": {
+    "app": "index.js"
+  },
+  "pkg": {
+    "assets": [
+      "**/*",
+      "node_modules/**/*"
+    ],
+    "targets": [
+      "node18-linux-x64",
+      "node18-win-x64"
+    ],
+    "outputPath": "out"
+  },
+  "scripts": {
+    "test": "test",
+    "build": "pkg package.json --options unhandled-rejections=none -t node18-linux-x64"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "KoT0XleB",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/rest": "^2.0.0",
+    "appdata-path": "^1.0.0",
+    "discord-api-types": "^0.37.74",
+    "discord.js": "^14.12.1",
+    "mongodb": "^6.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}

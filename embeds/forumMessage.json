@@ -1,0 +1,67 @@
+{
+  "content": "",
+  "tts": false,
+  "embeds": [],
+  "components": [
+    {
+      "id": 282967825,
+      "type": 1,
+      "components": [
+        {
+          "id": 640073169,
+          "type": 3,
+          "options": [
+            {
+              "id": 756741185,
+              "label": "1",
+              "action_set_id": "344463621",
+              "description": "1"
+            },
+            {
+              "id": 511045225,
+              "label": "2",
+              "action_set_id": "803776122",
+              "description": "2"
+            }
+          ],
+          "placeholder": "Place"
+        }
+      ]
+    },
+    {
+      "id": 119518527,
+      "type": 1,
+      "components": [
+        {
+          "id": 468213689,
+          "type": 2,
+          "style": 3,
+          "label": "Lol",
+          "action_set_id": "700418673"
+        },
+        {
+          "id": 626034092,
+          "type": 2,
+          "style": 2,
+          "label": "Bad",
+          "action_set_id": "203382981"
+        }
+      ]
+    }
+  ],
+  "actions": {
+    "203382981": {
+      "actions": []
+    },
+    "344463621": {
+      "actions": []
+    },
+    "700418673": {
+      "actions": []
+    },
+    "803776122": {
+      "actions": []
+    }
+  },
+  "username": "Name"
+}

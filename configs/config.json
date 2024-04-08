@@ -1,0 +1,11 @@
+{
+    "token": "your-token-goes-here",
+    "clientId": "your-application-id-goes-here",
+    "guildId": "your-server-id-goes-here",
+    "mongo_login": "your-mongo-login-here",
+    "mongo_password": "your-mongo-password-here",
+    "mongo_server": "ip:port",
+    "mongo_database": "your-mongodb-database-name-here",
+    "mongo_collection": "your-mongodb-collection-name-here",
+    "thread_role_id": "your-role-id-from-server-here"
+}
